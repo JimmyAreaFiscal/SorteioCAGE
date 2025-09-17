@@ -1,0 +1,21 @@
+@src 
+
+
+You are a React developer. 
+
+I need you to generate an WebApp called "Sorteio das Divisões - CAGE-RS". 
+This webapp should:
+
+1. List all employees (from a previous specified csv, inside the package), each one in cards ("choosebox"), which have its photo (from assets/personal_photos), an box to choose between previous defined places to work. Also, it should have a buttom to "confirm" the choose, which will update the sidebar.
+
+2. List all guesses made (presented in the csv) on the sidebar, with a ranking of top 5 guessers. After each employee chosen, the ranking should be updated, with a visual interaction of the line of the ranking going down or up. 
+
+3. Being able to filter the choosenboxes (the cards) by the name of the employee using a search box filter. 
+
+4. Saving each choosen in an internal database(SQLite), in order to not lose after updating the page. 
+
+
+This should be created on the componentes "choosebox" (for the cards), "searchbar" (for the search and filter bar) and "sidebar" (for the sidebar with ranking). Also update the App.jsx.
+
+
+In addition, make it graphically good, in order to be similar to a nowadays app. 
